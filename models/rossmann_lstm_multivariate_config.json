@@ -1,0 +1,32 @@
+{
+    "model_type": "Multivariate LSTM",
+    "forecast_target": "Daily aggregate Sales",
+    "aggregation": "Sum of Sales across all stores",
+    "lookback": 30,
+    "input_features": [
+        "Sales",
+        "OpenStores",
+        "PromoStores",
+        "SchoolHolidayStores",
+        "StateHolidayStores",
+        "DayOfWeek_Sin",
+        "DayOfWeek_Cos",
+        "Month_Sin",
+        "Month_Cos",
+        "DayOfYear_Sin",
+        "DayOfYear_Cos",
+        "IsWeekend"
+    ],
+    "number_of_features": 12,
+    "use_differencing": false,
+    "scaling_range": "(-1, 1)",
+    "training_split": 0.8,
+    "lstm_layers": 2,
+    "first_lstm_units": 64,
+    "second_lstm_units": 32,
+    "dropout": 0.2,
+    "training_start": "2013-01-01",
+    "training_end": "2015-07-31",
+    "validation_start": "2015-01-24",
+    "validation_end": "2015-07-31"
+}

@@ -11,7 +11,7 @@ import sys
 APP_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = APP_DIR.parent
 
-DATA_DIR = PROJECT_DIR / "data"
+DATA_DIR = PROJECT_DIR / "Data"
 
 sys.path.insert(0, str(APP_DIR))
 

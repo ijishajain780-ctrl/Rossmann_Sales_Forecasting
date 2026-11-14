@@ -62,6 +62,9 @@ def predict_sales_and_customers(
             f"Missing Customers features: {missing_customers}"
         )
 
+    # Sort data by date before prediction
+    df = df.sort_values("Date").reset_index(drop=True)
+
     # Prepare model inputs in expected order
     X_sales = df[sales_features]
     X_customers = df[customers_features]
@@ -74,9 +77,6 @@ def predict_sales_and_customers(
     # Store predictions
     result_df = df.copy()
 
-    result_df = result_df.sort_values(
-        "Date"
-        ).reset_index(drop=True)
 
     result_df["Predicted_Sales"] = sales_predictions
     result_df["Predicted_Customers"] = customers_predictions

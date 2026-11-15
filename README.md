@@ -308,3 +308,13 @@ The deployed dashboard provides an interactive way to generate six-week sales an
 **Project Repository:** [GitHub – Rossmann Sales Forecasting](https://github.com/ijishajain780-ctrl/Rossmann_Sales_Forecasting)
 
 **Live Dashboard:** [Rossmann Sales Forecasting Application](https://rossmann-sales-forecasting-project.streamlit.app/)
+
+
+## 📑 Project Deliverables
+
+The following documents provide a detailed overview of the Rossmann Store Sales Forecasting project:
+
+| Deliverable | Description |
+|---|---|
+| EDA Presentation | Key exploratory data analysis findings and business insights |
+| Final Project Report (PDF) | Complete project methodology, ML models, LSTM deep learning, MLflow, DVC and Streamlit deployment |

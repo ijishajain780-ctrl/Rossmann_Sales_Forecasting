@@ -166,31 +166,46 @@ The tracked datasets include:
 
 DVC metadata and version history are included in the GitHub repository. The DVC remote storage is not configured; the data cache is maintained locally.
 
+
 ## 📸 Streamlit Dashboard Screenshots
 
 ### 1. Dashboard Interface
 
-![Dashboard Interface](outputs/Streamlit_Screenshots/01_Dashboard_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/01_Dashboard_Streamlit.png" width="850" alt="Dashboard Interface">
+</p>
 
 ### 2. Dashboard Overview
 
-![Dashboard Overview](outputs/Streamlit_Screenshots/02_Dashboard_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/02_Dashboard_Streamlit.png" width="850" alt="Dashboard Overview">
+</p>
 
 ### 3. Prediction Summary
 
-![Prediction Summary](outputs/Streamlit_Screenshots/03_PredictionSummary_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/03_PredictionSummary_Streamlit.png" width="850" alt="Prediction Summary">
+</p>
 
 ### 4. Daily Sales Forecast
 
-![Daily Sales Forecast](outputs/Streamlit_Screenshots/04_DailySalesForecast_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/04_DailySalesForecast_Streamlit.png" width="850" alt="Daily Sales Forecast">
+</p>
 
 ### 5. Daily Customer Forecast
 
-![Daily Customer Forecast](outputs/Streamlit_Screenshots/05_DailyCustomerForecast_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/05_DailyCustomerForecast_Streamlit.png" width="850" alt="Daily Customer Forecast">
+</p>
 
 ### 6. Prediction Results
 
-![Prediction Results](outputs/Streamlit_Screenshots/06_PredictionResults_Streamlit.png)
+<p align="center">
+  <img src="outputs/Streamlit_Screenshots/06_PredictionResults_Streamlit.png" width="850" alt="Prediction Results">
+</p>
+
+**Live Application:** [Open Rossmann Sales Forecasting Dashboard](https://rossmann-sales-forecasting-project.streamlit.app/)
 
 ## 📁 Project Structure
 
